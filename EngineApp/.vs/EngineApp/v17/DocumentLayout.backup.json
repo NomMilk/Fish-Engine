@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -35,6 +35,10 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Renderer.cs",
@@ -42,15 +46,10 @@
               "RelativeDocumentMoniker": "Renderer.cs",
               "ToolTip": "C:\\Users\\thehu\\Downloads\\MyGames\\4Rum\\Fish-Engine\\EngineApp\\Renderer.cs",
               "RelativeToolTip": "Renderer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T17:33:28.857Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-14T18:48:04.088Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

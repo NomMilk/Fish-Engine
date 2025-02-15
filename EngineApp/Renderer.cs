@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Silk.NET.Input;
+﻿using Silk.NET.Input;
 using Silk.NET.OpenGL;
+using Silk.NET.Maths;
 using Silk.NET.Windowing;
 
 namespace FishEngine
@@ -18,7 +14,8 @@ namespace FishEngine
         {
             _window = Window.Create(WindowOptions.Default with
             {
-                Title = "FishEngine"
+                Title = "FishEngine",
+                Size = new Vector2D<int>(300, 300)
             });
 
             _window.Render += Window_Render;
