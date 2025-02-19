@@ -63,7 +63,7 @@ namespace FishEngine
         private static unsafe void Window_Render(double obj)
         {
             if (_gl is null) return;
-            _gl.ClearColor(0f, 0f, 1f, 1f);
+            _gl.ClearColor(1f, 1f, 1f, 1f);
             _gl.Clear(ClearBufferMask.ColorBufferBit);
 
             uint vao = _gl.GenVertexArray();
@@ -75,12 +75,12 @@ namespace FishEngine
 
             float[] vertexArray = new float[]
             {
-                -0.5f, -0.5f, 0.0f,
+                -0.2f, -0.5f, 0.0f,
                 0.5f, -0.5f, 0.0f,
                 0.0f, 0.5f, 0.5f
             };
 
-            float[] colorArray = Enumerable.Repeat(0.5f, 12).ToArray();
+            float[] colorArray = Enumerable.Repeat(1f, 12).ToArray();
 
             uint[] indexArray = new uint[] { 0, 1, 2 };
 
